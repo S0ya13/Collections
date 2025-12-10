@@ -6,7 +6,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 public class Task3 {
-    public static void main(String[] args) {
+    public static void main() {
         File path = new File("C:\\Users\\Asus\\Desktop\\JavaHomework\\Collections\\src\\workers.txt");
         Set<String> employees = new TreeSet<>();
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {

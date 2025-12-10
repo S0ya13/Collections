@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Task1 {
-    public static void main(String[] args) {
+    public static void main() {
         File path = new File("C:\\Users\\Asus\\Desktop\\JavaHomework\\Collections\\src\\workers.txt");
         List<String> employees = new ArrayList<>();
 

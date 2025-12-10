@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Task2 {
-    public static void main(String[] args) {
+    public static void main() {
         File path = new File("C:\\Users\\Asus\\Desktop\\JavaHomework\\Collections\\src\\workers.txt");
         Set<String> employees = new HashSet<>();
 
